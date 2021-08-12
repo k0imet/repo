@@ -59,6 +59,10 @@ Hi, i am Koimet a Web Security Researcher and CTF'er with [@fr334aks](https://tw
 
 - #1 tie CyberSec Smart Academy (solo play)
 
+- #7 Defcon RedTeamVillage CTF Quals as fr334aks
+
+- #14 Defcon RedTeamVillage CTF Finals as fr334aks
+
 - #7 Mini-CTF Week 2 (solo play)
 
 - #14 0xLaugh CTF as fr334aks
