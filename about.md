@@ -58,6 +58,8 @@ Hi, i am Koimet a Web Security Researcher and CTF'er with [@fr334aks](https://tw
 - #1 InterVarsity CTF 2021 as KCA Uni
 
 - #1 tie CyberSec Smart Academy (solo play)
+ 
+- #1 Kenya National CTF 2021 as fr334aks
 
 - #7 Defcon RedTeamVillage CTF Quals as fr334aks
 
