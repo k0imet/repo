@@ -27,7 +27,9 @@ key: page-about
 ---
 About Me
 
-Hi, i am Koimet a Web Security Researcher and CTF'er with [@fr334aks](https://twitter.com/fr334aks)
+Howdy, I am k0imet Founder and Team Captain [@fr334aks](https://twitter.com/fr334aks) .
+also a Security Consultant at Silensec. 
+Interested in Web Security and DFIR.
 
 *Achievements*
 
@@ -61,6 +63,8 @@ Hi, i am Koimet a Web Security Researcher and CTF'er with [@fr334aks](https://tw
  
 - #1 Kenya National CTF 2021 as fr334aks
 
+- #4 Africa and Arab Regional CTF Finals as fr334aks
+
 - #7 Defcon RedTeamVillage CTF Quals as fr334aks
 
 - #14 Defcon RedTeamVillage CTF Finals as fr334aks
@@ -70,6 +74,8 @@ Hi, i am Koimet a Web Security Researcher and CTF'er with [@fr334aks](https://tw
 - #14 0xLaugh CTF as fr334aks
 
 - #15 DCTF as fr334aks
+
+- #20 Winja-CoCOOn CTF as fr334aks
 
 - #27 RITSEC CTF as fr334aks
 
