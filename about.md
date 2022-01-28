@@ -67,7 +67,7 @@ Below are some of my/our achievements.
 
 - 🥇 tie ShehacksCTF 2021 as fr334aks 
 
-- #4 Africa and Arab Regional CTF Finals as fr334aks
+- 🥉 tie Africa and Arab Regional CTF Finals as fr334aks
 
 - #7 Defcon RedTeamVillage CTF Quals as fr334aks
 
