@@ -89,7 +89,7 @@ Below are some of my/our achievements.
 
 - Co-Organized and Authored Challenges for AfricaHackon CTF Quals and Finals 2021
 
-- Authored Challenged for Tribe CTF 2021.
+- Authored Challenges for Tribe CTF 2021.
 
 - Led in Organization and Authored Challenges for CyberStars Tanzania 2021-22 Qualification and Final Round
 
