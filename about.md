@@ -27,9 +27,11 @@ key: page-about
 ---
 About Me
 
-Howdy, I am k0imet Founder and Team Captain [@fr334aks](https://twitter.com/fr334aks) .
-also a Security Consultant at Silensec. 
-Interested in Web Security and DFIR.
+Howdy, 
+My name is Kelvin Njau (Koimet) a Security Consultant at Silensec Africa.
+I am also the Founder and Team captain at [fr334aks](https://twitter.com/fr334aks) a competitive MultiNational CTF team 😄. 
+
+Below are some of my/our achievements.
 
 *Achievements*
 
@@ -39,9 +41,9 @@ Interested in Web Security and DFIR.
 
 - #1 Hackfest CTF (shehacks_KE) as fr334aks
 
-- #3 GrayCon,RedTeam Village GrayHat CTF as fr334aks
+- #1 InterUniversity CTF by i&m bank as KCA University, #3 Individual Category 
 
-- #3 Individual category,InterUni CTF Organized By i&m bank ke, #1 as KCA Uni
+- #3 GrayCon,RedTeam Village GrayHat CTF as fr334aks
 
 - #7 PhamtomCTF3.0 as fr334aks
 
@@ -63,6 +65,8 @@ Interested in Web Security and DFIR.
  
 - #1 Kenya National CTF 2021 as fr334aks
 
+- #1 tie ShehacksCTF 2021 as fr334aks 
+
 - #4 Africa and Arab Regional CTF Finals as fr334aks
 
 - #7 Defcon RedTeamVillage CTF Quals as fr334aks
@@ -80,6 +84,16 @@ Interested in Web Security and DFIR.
 - #27 RITSEC CTF as fr334aks
 
 # Other 
+
+- Co-Organized and Authored Challenges for h4k-it CTF 2020
+
+- Co-Organized and Authored Challenges for AfricaHackon CTF Quals and Finals 2021
+
+- Authored Challenged for Tribe CTF 2021.
+
+- Led in Organization and Authored Challenges for CyberStars Tanzania 2021-22 Qualification and Final Round
+
+# MISC 
 
 - All time top 25 on [CyberTalents](https://cybertalents.com/members/_k0imet/profile)
 
