@@ -37,13 +37,13 @@ Below are some of my/our achievements.
 
 <b>2020</b>
 
-- #1 Kenya National CTF 2020 as fr334aks
+- 🥇 Kenya National CTF 2020 as fr334aks
 
-- #1 Hackfest CTF (shehacks_KE) as fr334aks
+- 🥇 Hackfest CTF (shehacks_KE) as fr334aks
 
-- #1 InterUniversity CTF by i&m bank as KCA University, #3 Individual Category 
+- 🥇 InterUniversity CTF by i&m bank as KCA University, #3 Individual Category 
 
-- #3 GrayCon,RedTeam Village GrayHat CTF as fr334aks
+- 🥉 GrayCon,RedTeam Village GrayHat CTF as fr334aks
 
 - #7 PhamtomCTF3.0 as fr334aks
 
@@ -59,13 +59,13 @@ Below are some of my/our achievements.
 
 <b>2021</b>
 
-- #1 InterVarsity CTF 2021 as KCA Uni
+- 🥇 InterVarsity CTF 2021 as KCA Uni
 
-- #1 tie CyberSec Smart Academy (solo play)
+- 🥇 tie CyberSec Smart Academy (solo play)
  
-- #1 Kenya National CTF 2021 as fr334aks
+- 🥇 Kenya National CTF 2021 as fr334aks
 
-- #1 tie ShehacksCTF 2021 as fr334aks 
+- 🥇 tie ShehacksCTF 2021 as fr334aks 
 
 - #4 Africa and Arab Regional CTF Finals as fr334aks
 
