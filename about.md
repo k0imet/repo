@@ -79,6 +79,8 @@ Below are some of my/our achievements.
 
 - #15 DCTF as fr334aks
 
+- #20 GrabCon CTF as fr334aks
+
 - #20 Winja-CoCOOn CTF as fr334aks
 
 - #27 RITSEC CTF as fr334aks
