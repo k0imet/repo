@@ -28,3 +28,5 @@ key: page-about
 
 
 - [CTF-BIBLE](https://github.com/k0imet/CTFs/tree/main/CTF-BIBLE)
+
+- [CVE_POCs](https://github.com/k0imet/CVE-POCs)
