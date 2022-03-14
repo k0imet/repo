@@ -27,4 +27,4 @@ key: page-about
 ---
 
 
-- [CTF-BIBLE](https://github.com/k0imet/CTFs/CTF-BIBLE)
+- [CTF-BIBLE](https://github.com/k0imet/CTFs/tree/main/CTF-BIBLE)
