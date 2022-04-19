@@ -85,6 +85,10 @@ Below are some of my/our achievements.
 
 - #27 RITSEC CTF as fr334aks
 
+# 2022
+
+- 🥇 USIU CTF Hackathon as fr334aks
+
 # Other 
 
 - Co-Organized and Authored Challenges for h4k-it CTF 2020
