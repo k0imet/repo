@@ -83,7 +83,8 @@ Function                     => Position of callback arguments
 
 Most of these function calls are not sinks. But rather it maybe a vulnerability if any of the data returned is viewable to an attacker. If an attacker can see phpinfo() it is definitely a vulnerability.
 
-`phpinfo
+```php
+phpinfo
 posix_mkfifo
 posix_getlogin
 posix_ttyname
@@ -99,11 +100,13 @@ getlastmo
 getmygid
 getmyinode
 getmypid
-getmyuid`
+getmyuid
+```
 
 ## Other
 
-`extract - Opens the door for register_globals attacks (see [study in scarlet - seclist](http://seclists.org/bugtraq/2001/Jul/att-26/studyinscarlet.txt)).
+```bash
+extract - Opens the door for register_globals attacks (see [study in scarlet - seclist](http://seclists.org/bugtraq/2001/Jul/att-26/studyinscarlet.txt)).
 parse_str -  works like extract if only one argument is given.
 putenv
 ini_set
@@ -120,7 +123,7 @@ posix_mkfifo
 posix_setpgid
 posix_setsid
 posix_setuid
-`
+```
 
 ## Filesystem Functions
 
