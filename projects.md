@@ -32,6 +32,7 @@ key: page-about
 <details>
   <summary>CTF Resources for Both Beginners and Professionals</summary>
   
+  
 - [CTF-BIBLE](https://github.com/k0imet/CTFs/tree/main/CTF-BIBLE)
 
 </details>
@@ -41,6 +42,7 @@ key: page-about
 <details>
   <summary>Central Repository for CVE POCs for both red teaming and blue teaming Purposes</summary>
 
+  
 - [CVE_POCs](https://github.com/k0imet/CVE-POCs)
 
 </details>
