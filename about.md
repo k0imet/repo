@@ -103,8 +103,3 @@ Below are some of my/our achievements.
 
 - Technical Director in Delivering KCA InterUNI CTF 
 
-# MISC 
-
-- All time top 25 on [CyberTalents](https://cybertalents.com/members/_k0imet/profile)
-
-- All time top 10 on [CyberSpaceKE](https://ctf.cyberspace.co.ke)
