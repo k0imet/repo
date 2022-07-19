@@ -99,6 +99,10 @@ Below are some of my/our achievements.
 
 - Led in Organization and Authored Challenges for CyberStars Tanzania 2021-22 Qualification and Final Round
 
+- Technical Director in Delivering Bsides Nairobi Cyber Challenge
+
+- Technical Director in Delivering KCA InterUNI CTF 
+
 # MISC 
 
 - All time top 25 on [CyberTalents](https://cybertalents.com/members/_k0imet/profile)
