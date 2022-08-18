@@ -102,6 +102,36 @@ getmyinode
 getmypid
 getmyuid
 ```
+## PHP PHAR exploitation
+```php
+include(‘phar://test.phar’);
+file_get_contents(‘phar://test.phar’);
+file_put_contents(‘phar://test.phar’, ‘’);
+copy('phar://test.phar', '');
+file_exists(‘phar://test.phar’);
+is_executable(‘phar://test.phar’);
+is_file(‘phar://test.phar’);
+is_dir(‘phar://test.phar’);
+is_link(‘phar://test.phar’);
+is_writable(‘phar://test.phar‘);
+fileperms(‘phar://test.phar’);
+fileinode('phar://test.phar');
+filesize('phar://test.phar');
+fileowner(‘phar://test.phar’);
+filegroup(‘phar://test.phar’);
+fileatime('phar://test.phar');
+filemtime(‘phar://test.phar’);
+filectime(‘phar://test.phar’);
+filetype('phar://test.phar');
+getimagesize(‘phar://test.phar’);
+exif_read_data(‘phar://test.phar’);
+stat('phar://test.phar');
+lstat(‘phar://test.phar’);
+touch(‘phar://test.phar‘);
+md5_file(‘phar://test.phar’);
+```
+
+
 
 ## Other
 
