@@ -89,7 +89,7 @@ Below are some of my/our achievements.
 
 - 🥇 USIU CTF Hackathon as fr334aks
 
-# Other 
+# Notable Experiences
 
 - Co-Organized and Authored Challenges for h4k-it CTF 2020
 
@@ -97,9 +97,11 @@ Below are some of my/our achievements.
 
 - Authored Challenges for Tribe CTF 2021.
 
-- Led in Organization and Authored Challenges for CyberStars Tanzania 2021-22 Qualification and Final Round
+- Led in Technical Organization and Delivery of CyberStars Tanzania 2021-22 Qualification and Finals
 
 - Technical Director in Delivering Bsides Nairobi Cyber Challenge
 
-- Technical Director in Delivering KCA InterUNI CTF 
+- Technical Director in Delivering KCA ShehacksKE InterUNI CTF 2022
+
+- Led in Technical Organization and Delivery of CyberStars of Uganda 2022 Qualification and Finals
 
