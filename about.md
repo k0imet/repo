@@ -89,6 +89,8 @@ Below are some of my/our achievements.
 
 - 🥇 USIU CTF Hackathon as fr334aks
 
+🙂 🔽
+
 # Notable Experiences
 
 - Co-Organized and Authored Challenges for h4k-it CTF 2020
@@ -105,3 +107,6 @@ Below are some of my/our achievements.
 
 - Led in Technical Organization and Delivery of CyberStars of Uganda 2022 Qualification and Finals
 
+- CTF Manager CyberConKE, Delivered CyberConKE Quals and Finals 2022
+
+🙂 🔼
