@@ -21,7 +21,8 @@ Prototype pollution vulnerabilities can occur in programs that use the Object.as
 ## 3. Examples of prototype pollution vulnerabilities
 Here are some examples of prototype pollution vulnerabilities:
 
-Example 1
+### Example 1
+
 In this example, a JavaScript program uses the Object.assign() method to add a new property to an object's prototype. However, the Object.assign() method does not perform any validation on the input data, which allows an attacker to specify arbitrary property names and values that will be added to the prototype:
 
 ```javascript
@@ -38,7 +39,8 @@ let data = {
 Object.assign(obj.prototype, data);
 ``` 
 
-Example 2
+### Example 2
+
 In this example, a JavaScript program uses the Object.defineProperty() method to add a new property to an object's prototype. However, the Object.defineProperty() method does not perform any validation on the input data, which allows an attacker to specify arbitrary property names and values that will be added to the prototype:
 
 ```javascript
