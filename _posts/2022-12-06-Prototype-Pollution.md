@@ -12,103 +12,54 @@ tags:  web JS
     4. How to prevent prototype pollution
     5. Conclusion
 
-## What is prototype pollution 
+## 1. What is prototype pollution?
+Prototype pollution is a type of vulnerability that can occur in JavaScript programs when the properties of an object's prototype are manipulated in a way that allows an attacker to inject malicious values into the object. This can allow an attacker to modify the behavior of the program in unexpected ways, and potentially gain unauthorized access to sensitive data or functionality.
 
-Prototype pollution is a type of vulnerability that can occur in JavaScript applications. 
-It occurs when an attacker is able to manipulate the prototype of an object, allowing them to add or modify properties on that object in a way that was not intended by the application's developer. 
-This can potentially lead to security vulnerabilities, as the attacker may be able to access sensitive information or execute arbitrary code on the victim's system.
+## 2. How does prototype pollution occur?
+Prototype pollution vulnerabilities can occur in programs that use the Object.assign() or Object.defineProperty() methods to add or modify the properties of an object's prototype. These methods allow developers to specify the properties and values that should be added to the prototype, but they do not perform any validation on the input data. As a result, if an attacker is able to control the input data, they can specify arbitrary property names and values that will be added to the prototype.
 
+## 3. Examples of prototype pollution vulnerabilities
+Here are some examples of prototype pollution vulnerabilities:
 
-## How does prototype pollution occur
-
-Prototype pollution occurs when an attacker is able to inject malicious data into an application's input, such as through a URL parameter or a form field. 
-This data is then processed by the application, and used to modify the prototype of an object. 
-For example, if an application expects a user's name as input, but an attacker is able to provide a string with a special format, such as <b>"name.constructor.prototype.secret=42"</b>, the application may inadvertently modify the prototype of the "name" object to include a new property called "secret" with a value of 42. This can potentially allow the attacker to access sensitive information or execute arbitrary code on the victim's system.
-
-## Examples of Prototype pollution vulnerabilities
-
-
-There are many different examples of prototype pollution vulnerabilities. For instance, an attacker may be able to inject malicious data into an application's input in order to modify the prototype of an object and gain access to sensitive information. For example, an attacker may be able to modify the prototype of the "window" object in a web application, allowing them to access the victim's cookies or other sensitive data. 
-Alternatively, an attacker may be able to modify the prototype of the "Object" object, allowing them to add or modify properties on any object in the application. This could potentially allow the attacker to execute arbitrary code on the victim's system.
-
-## How to prevent prototype pollution
-
-To prevent prototype pollution, it is important to properly validate and sanitize all user input to ensure that it conforms to the expected format. This can be done by using input validation and sanitization libraries, such as the "validator" module in Node.js. 
-Additionally, developers should avoid using user-provided data to modify the prototypes of objects, as this can create opportunities for attackers to inject malicious data.
-
-## Conclusion 
-
-In conclusion, prototype pollution is a type of vulnerability that can occur in JavaScript applications. 
-It occurs when an attacker is able to manipulate the prototype of an object, potentially allowing them to access sensitive information or execute arbitrary code on the victim's system. To prevent prototype pollution, it is important to properly validate and sanitize user input and avoid using user-provided data to modify object prototypes. 
-By taking these precautions, developers can help protect their applications from this type of attack.
-
-Prototype pollution is a type of vulnerability that can occur in JavaScript applications. 
-It occurs when an attacker is able to manipulate the prototype of an object, allowing them to add or modify properties on that object in a way that was not intended by the application's developer. This can potentially lead to security vulnerabilities, as the attacker may be able to access sensitive information or execute arbitrary code on the victim's system.
-Prototype pollution occurs when an attacker is able to inject malicious data into an application's input, such as through a URL parameter or a form field. 
-This data is then processed by the application, and used to modify the prototype of an object. For example, consider the following code:
+Example 1
+In this example, a JavaScript program uses the Object.assign() method to add a new property to an object's prototype. However, the Object.assign() method does not perform any validation on the input data, which allows an attacker to specify arbitrary property names and values that will be added to the prototype:
 
 ```javascript
-const userInput = 'name.constructor.prototype.secret=42';
-const name = userInput;
-console.log(name.secret);
-```
+// Define an object with an empty prototype
+let obj = Object.create(null);
 
-In this code, the userInput variable is set to a string that contains a special format, with <b>.constructor.prototype</b> followed by a property name and value. When this string is assigned to the name variable, the application inadvertently modifies the prototype of the name object to include a new property called secret with a value of 42. 
-This can potentially allow the attacker to access sensitive information or execute arbitrary code on the victim's system.
-There are many different examples of prototype pollution vulnerabilities. For instance, an attacker may be able to inject malicious data into an application's input in order to modify the prototype of an object and gain access to sensitive information. For example, an attacker may be able to modify the prototype of the window object in a web application, allowing them to access the victim's cookies or other sensitive data. Here is an example of how this might work:
+// Define an object that contains the properties to be added to the prototype
+let data = {
+    name: "John Doe",
+    age: 30
+};
 
-```javascript
-// Attacker's input
-const userInput = 'window.constructor.prototype.secret=42';
+// Use the Object.assign() method to add the properties from the data object to the prototype
+Object.assign(obj.prototype, data);
+``` 
 
-// Inject attacker's input into the application
-const name = userInput;
-
-// Access sensitive information
-console.log(window.secret); // 42
-```
-Alternatively, an attacker may be able to modify the prototype of the Object object, allowing them to add or modify properties on any object in the application. This could potentially allow the attacker to execute arbitrary code on the victim's system. Here is an example of how this might work:
+Example 2
+In this example, a JavaScript program uses the Object.defineProperty() method to add a new property to an object's prototype. However, the Object.defineProperty() method does not perform any validation on the input data, which allows an attacker to specify arbitrary property names and values that will be added to the prototype:
 
 ```javascript
-// Attacker's input
-const userInput = 'Object.constructor.prototype.secret=function(){ alert("Prototype pollution!"); }';
+// Define an object with an empty prototype
+let obj = Object.create(null);
 
-// Inject attacker's input into the application
-const name = userInput;
-
-// Execute arbitrary code
-secret(); // "Prototype pollution!"
-```
-
-To prevent prototype pollution, it is important to properly validate and sanitize all user input to ensure that it conforms to the expected format. This can be done by using input validation and sanitization libraries, such as the validator module in Node.js. Here is an example of how this might work:
-
-```javascript
-const validator = require('validator');
-
-// Validate user input
-if (validator.isAlpha(userInput)) {
-  const name = userInput;
-  console.log(name);
-} else {
-  // Handle invalid input
-  console.log('Invalid input!');
-}
-```
-In this example, the validator.isAlpha() method is used to check if the userInput variable contains only alphabetical characters. If it does, the
-
-In addition to input validation and sanitization, developers can also prevent prototype pollution by avoiding using user-provided data to modify the prototypes of objects. 
-This can help to reduce the opportunities for attackers to inject malicious data and exploit prototype pollution vulnerabilities. Here is an example of how this might be done:
-
-```javascript
-// Do not use user-provided data to modify object prototypes
-const name = userInput;
-console.log(name);
-```
-
-In this example, the userInput variable is not used to modify the prototype of the name object. This can help to prevent prototype pollution, as the attacker's malicious data will not be processed by the application and will not affect the prototype of the name object.
+// Use the Object.defineProperty() method to add a new property to the prototype
+Object.defineProperty(obj.prototype, "name", {
+   value: "John Doe"
+});
+``` 
 
 
-To summarize, prototype pollution is a type of vulnerability that can occur in JavaScript applications. 
-It occurs when an attacker is able to manipulate the prototype of an object, potentially allowing them to access sensitive information or execute arbitrary code on the victim's system. 
-To prevent prototype pollution, it is important to properly validate and sanitize user input and avoid using user-provided data to modify object prototypes. 
-By taking these precautions, developers can help protect their applications from this type of attack.
+## 4. How to prevent prototype pollution
+To prevent prototype pollution vulnerabilities, it is important to validate user input and ensure that it conforms to the expected format and values. This can be done using a variety of techniques, such as by using regular expressions to match the input data against a predefined pattern, or by using a schema to validate the structure of the input data.
+
+Additionally, it is important to avoid using the Object.assign() and Object.defineProperty() methods to add or modify the properties of an object's prototype, unless the input data can be trusted. Instead, you should use other methods, such as the Object.defineProperties() method, which allows you to specify multiple properties and values at once, and provides built-in validation to ensure that the input data is safe. By using these methods, you can help protect your program against prototype pollution attacks.
+
+## 5. Conclusion
+Prototype pollution is a type of vulnerability that can occur in JavaScript programs when the properties of an object's prototype are manipulated in a way that allows an attacker to inject malicious values into the object. This can allow an attacker to modify the behavior of the program in unexpected ways, and potentially gain unauthorized access to sensitive data or functionality.
+
+To prevent prototype pollution vulnerabilities, it is important to validate user input and avoid using the Object.assign() and Object.defineProperty() methods to add or modify the properties of an object's prototype, unless the input data can be trusted. Instead, you should use other methods, such as the Object.defineProperties() method, which allows you to specify multiple properties and values at once, and provides built-in validation to ensure that the input data is safe.
+
+By following these best practices, you can help protect your JavaScript programs against prototype pollution attacks.
