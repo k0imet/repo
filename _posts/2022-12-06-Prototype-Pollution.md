@@ -98,4 +98,6 @@ console.log(name);
 In this example, the userInput variable is not used to modify the prototype of the name object. This can help to prevent prototype pollution, as the attacker's malicious data will not be processed by the application and will not affect the prototype of the name object.
 
 
-To summarize, prototype pollution is a type of vulnerability that can occur in JavaScript applications. It occurs when an attacker is able to manipulate the prototype of an object, potentially allowing them to access sensitive information or execute arbitrary code on the victim's system. To prevent prototype pollution, it is important to properly validate and sanitize user input and avoid using user-provided data to modify object prototypes. By taking these precautions, developers can help protect their applications from this type of attack.
+To summarize, prototype pollution is a type of vulnerability that can occur in JavaScript applications. 
+It occurs when an attacker is able to manipulate the prototype of an object, potentially allowing them to access sensitive information or execute arbitrary code on the victim's system. To prevent prototype pollution, it is important to properly validate and sanitize user input and avoid using user-provided data to modify object prototypes. 
+By taking these precautions, developers can help protect their applications from this type of attack.
