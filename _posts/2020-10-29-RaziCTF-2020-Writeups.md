@@ -61,19 +61,23 @@ and there we get our flag
 
 ## Challenge
 
-![screenshot1.png](/img/ChallengeDesc.png)
+![screenshot1.png](/img/razictf/ChallengeDesc.png)
 
 
 ## Solution
+
 the challenge description has 2 provided hints ```fence and bifid```
-![screenshot3.png](/img/Cipher.png)
+
+![screenshot3.png](/img/razictf/Cipher.png)
+
 provided the cipher we try decoding it with "Rail Fence Cipher" ...
 Then decode the Results with "Bifid Cipher"
 with the provided key "RaziCTF"
-![screenshot4.png](/img/RailFenceDecoder.png)
+
+![screenshot4.png](/img/razictf/RailFenceDecoder.png)
 
 
-![screenshot5.png](/img/BifidDecode.png)
+![screenshot5.png](/img/razictf/BifidDecode.png)
 
 and there we get our flag
 
@@ -83,7 +87,7 @@ and there we get our flag
 
 ## Challenge
 
-![screenshot1.png](/img/Desc.png)
+![screenshot1.png](/img/razictf/Desc.png)
 
 
 ## Solution
@@ -93,21 +97,21 @@ opening the file in Cyberchef
 and decoding through 
 base32>>base58>>base62>>base64>>base85 
 we get the flag
-![file.png](/img/CyberChef.png)
+![file.png](/img/razictf/CyberChef.png)
 
 # Culture
 Steganography
 
 ## Challenge
 
-![screenshot1.png](/img/Culture.png)
+![screenshot1.png](/img/razictf/Culture.png)
 
 
 ## Solution
 we are provided with a challenge png file
-![screenshot2.png](/img/enc.png)
+![screenshot2.png](/img/razictf/enc.png)
 since it's a png i decided to check through zsteg 
 and we get our flag
-![screenshot5.png](/img/flag.png)
+![screenshot5.png](/img/razictf/flag.png)
 
 and there we get our flag
