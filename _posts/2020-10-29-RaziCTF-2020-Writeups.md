@@ -83,7 +83,7 @@ and there we get our flag
 
 ## Challenge
 
-![screenshot1.png](Desc.png)
+![screenshot1.png](/img/Desc.png)
 
 
 ## Solution
@@ -93,7 +93,21 @@ opening the file in Cyberchef
 and decoding through 
 base32>>base58>>base62>>base64>>base85 
 we get the flag
-![file.png](CyberChef.png)
+![file.png](/img/CyberChef.png)
+
+# Culture
+Steganography
+
+## Challenge
+
+![screenshot1.png](/img/Culture.png)
 
 
+## Solution
+we are provided with a challenge png file
+![screenshot2.png](/img/enc.png)
+since it's a png i decided to check through zsteg 
+and we get our flag
+![screenshot5.png](/img/flag.png)
 
+and there we get our flag
