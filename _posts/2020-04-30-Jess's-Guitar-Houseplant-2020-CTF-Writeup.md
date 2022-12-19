@@ -1,7 +1,7 @@
-
 ---
 title : Jess’s Guitar, Houseplant 2020 ctf walkthrough
 tags : misc
+---
 ---
 
 ![](/img/houseplant/logo.png)
