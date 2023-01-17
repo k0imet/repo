@@ -255,3 +255,5 @@ tags: web
 - [ ] XPATH Injection
 
 - [ ] XSRF or SSRF
+
+- [x] Parameter Pollution
