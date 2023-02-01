@@ -13,10 +13,15 @@ tags:  web JS
     5. Conclusion
 
 ## 1. What is prototype pollution?
+To understand prototype pollutions we may start by defining a prototypes in Javascript,
+according to MDN doc, 
+["Prototypes are the mechanism by which JavaScript objects inherit features from one another"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes). 
+
 Prototype pollution is a type of vulnerability that can occur in JavaScript programs and now [python ?](https://blog.abdulrah33m.com/prototype-pollution-in-python/)  when the properties of an object's prototype are manipulated in a way that may allow an attacker to inject malicious values into the object. This can allow an attacker to modify the behavior of the program in unexpected ways, and potentially gain unauthorized access to sensitive data or functionality.
 
 ## 2. How does prototype pollution occur?
-Prototype pollution vulnerabilities can occur in programs that use the Object.assign() or Object.defineProperty() methods to add or modify the properties of an object's prototype. These methods allow developers to specify the properties and values that should be added to the prototype, but they do not perform any validation on the input data. As a result, if an attacker is able to control the input data, they can specify arbitrary property names and values that will be added to the prototype.
+
+Prototype pollution vulnerabilities occur in programs that use the `Object.assign()` or `Object.defineProperty()` methods to add or modify the properties of an object's prototype. These methods allow developers to specify the properties and values that should be added to the prototype, but they do not perform any validation on the input data. As a result, if an attacker is able to control the input data, they can specify arbitrary property names and values that will be added to the prototype.
 
 ## 3. Examples of prototype pollution vulnerabilities
 Here are some examples of prototype pollution vulnerabilities:
