@@ -28,7 +28,7 @@ key: page-about
 About Me
 
 Howdy, 
-My name is Kelvin Njau (Koimet) a Security Consultant at Silensec Africa.
+My name is Kelvin Njau (Koimet) a Security Analyst at Yelbridges, Ex : Silensec.
 I am also the Founder and Team captain at [fr334aks](https://twitter.com/fr334aks) a competitive MultiNational CTF team 😄. 
 
 Below are some of my/our achievements.
@@ -109,4 +109,5 @@ Below are some of my/our achievements.
 
 - CTF Manager CyberConKE, Delivered CyberConKE Quals and Finals 2022
 
+- Challenge Author BIC Winter Conference CTF 2023
 🙂 🔼
