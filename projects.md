@@ -37,12 +37,11 @@ key: page-about
 
 </details>
 
-- CVE-POCs
-
+- Nuclei-Templates
 <details>
   <summary>Central Repository for CVE POCs for both red teaming and blue teaming Purposes</summary>
 
   
-- [CVE_POCs](https://github.com/k0imet/CVE-POCs)
+- [CVE_POCs](https://github.com/k0imet/Nuclei-Templates)
 
 </details>
