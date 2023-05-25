@@ -29,19 +29,9 @@ key: page-about
 
 - CTF-BIBLE
 
-<details>
-  <summary>CTF Resources for Both Beginners and Professionals</summary>
-  
-  
-- [CTF-BIBLE](https://github.com/k0imet/CTFs/tree/main/CTF-BIBLE)
+  - [CTF-BIBLE](https://github.com/k0imet/CTFs/tree/main/CTF-BIBLE)
 
-</details>
 
 - Nuclei-Templates
-<details>
-  <summary>Central Repository for CVE POCs for both red teaming and blue teaming Purposes</summary>
+  - [Nuclei Templates](https://github.com/k0imet/Nuclei-Templates)
 
-  
-- [CVE_POCs](https://github.com/k0imet/Nuclei-Templates)
-
-</details>
