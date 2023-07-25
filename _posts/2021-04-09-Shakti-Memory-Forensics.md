@@ -3,7 +3,7 @@ title : Help Me,Memory Forensics Shakti 2021
 tags : forensics steganography
 ---
 
-Shakti took place over the weekend and i happened to miss out,
+Shakti took place over the weekend and I happened to miss out,
 but i got a memory forensics challenge before it ended and i found it interesting 
 
 ## Challenge 
