@@ -101,15 +101,19 @@ Below are some of my/our achievements.
 
 - Led in Technical Organization and Delivery of CyberStars Tanzania 2021-22 Qualification and Finals
 
-- Technical Director in Delivering Bsides Nairobi Cyber Challenge
+- Technical Director Bsides Nairobi Cyber Challenge
 
-- Technical Director in Delivering KCA ShehacksKE InterUNI CTF 2022
+- Technical Director KCA ShehacksKE InterUNI CTF 2022
 
-- Led in Technical Organization and Delivery of CyberStars of Uganda 2022 Qualification and Finals
+- Organized CyberStars of Uganda 2022 Qualification and Finals
 
 - CTF Manager CyberConKE, Delivered CyberConKE Quals and Finals 2022
 
 - Challenge Author BIC Winter Conference CTF 2023
+
+- Challenge Author BIC Defcon31 CTF
+
+- Challenge Author ctfroom.com
 
 
 🙂 🔼
