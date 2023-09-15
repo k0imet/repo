@@ -1,5 +1,5 @@
 ---
-layout: Article
+layout: article
 title : XSS Automation with Paramspider and kxss
 tags : xss web
 ---
