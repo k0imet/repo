@@ -1,6 +1,7 @@
 ---
+layout: Article
 title : XSS Automation with Paramspider and kxss
-tags : xss 
+tags : xss web
 ---
 
 # Introduction 
