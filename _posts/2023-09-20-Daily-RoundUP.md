@@ -4,7 +4,7 @@ title: Weekly RoundUP #1
 tags: ctf forensics web 
 ---
 
-# Weekly RoundUP
+# Daily RoundUP
 
 - I will be sharing all the handy links that come across on a daily basis (I hope) within the week,sorted by categories
 
