@@ -34,9 +34,9 @@ Paramspider is a tool by [devanshbatham](https://github.com/devanshbatham) that 
 ### installation 
 
 ```bash 
-git clone https://github.com/devanshbatham/paramspider
-cd paramspider
-pip install .
+▶ git clone https://github.com/devanshbatham/paramspider
+▶ cd paramspider
+▶ pip install .
 ```
 
 ### usage 
@@ -60,7 +60,7 @@ paramspider -d example.com
 
 ```bash 
 
-go install https://github.com/Emoe/kxss@latest
+▶ go install https://github.com/Emoe/kxss@latest
 ```
 
 ### usage
@@ -69,7 +69,7 @@ go install https://github.com/Emoe/kxss@latest
 
 ```bash 
 
-cat output/example.com.txt | kxss
+▶ cat output/example.com.txt | kxss
 ```
 
 ![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/77998027-b9f9-4eaf-a9ad-ebb66ccf9d10)
