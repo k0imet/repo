@@ -8,8 +8,6 @@ tags: ctf forensics web
 
 - I will be sharing all the handy links that come across on a daily basis (I hope) within the week,sorted by categories
 
-## CTF
-
 
 ## 20th Sep 2023 
 
