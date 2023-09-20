@@ -15,7 +15,7 @@ tags: ctf forensics web
 
 ### CTF 
 
-- [web ctf challs](
+- [web ctf challs](https://web-kids20.forkbomb.ru/)
 
 ### Bug Bounty 
 
