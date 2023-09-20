@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Weekly RoundUP #1
+title: Daily RoundUP
 tags: ctf forensics web 
 ---
 
