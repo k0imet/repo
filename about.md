@@ -89,6 +89,9 @@ Below are some of my/our achievements.
 
 - 🥇 USIU CTF Hackathon as fr334aks
 
+# 2023 
+
+- 🥇 Shehacks Intervasity CTF 2023 as Seekers
 🙂 🔽
 
 # Notable Experiences
