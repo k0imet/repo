@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Quick FTWs
-tags: python2 
+tags: python2 wget
 ---
 
 ## For the Wins (FTW)
