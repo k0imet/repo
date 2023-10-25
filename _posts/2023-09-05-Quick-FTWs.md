@@ -47,4 +47,11 @@ or
 pip2 install . --no-use-pep517
 ```
 
+#### WGET Recursive Download
+
+-
+```bash
+wget -r -np -nH --cut-dirs=1 -A . http://sites.com/dir/
+```
+
 <More to come>
