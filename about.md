@@ -92,6 +92,7 @@ Below are some of my/our achievements.
 # 2023 
 
 - 🥇 Shehacks Intervasity CTF 2023 as Seekers
+- 🥈 Sub Saharan Africa CTF 2023 as fr334aks ( tie on🥇)
 🙂 🔽
 
 # Notable Experiences
