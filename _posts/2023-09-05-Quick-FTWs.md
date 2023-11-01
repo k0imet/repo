@@ -54,4 +54,9 @@ pip2 install . --no-use-pep517
 wget -r -np -nH --cut-dirs=1 -A . http://sites.com/dir/
 ```
 
+
+#### Medium Paywall bypass 
+
+```http://webcache.googleusercontent.com/search?q=cache:mediumlinkehere```
+
 <More to come>
