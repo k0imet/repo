@@ -59,4 +59,24 @@ wget -r -np -nH --cut-dirs=1 -A . http://sites.com/dir/
 
 ```http://webcache.googleusercontent.com/search?q=cache:mediumlinkehere```
 
+#### Fixing Elrepo mirror issues 
+
+# how it starts 
+
+```bash
+sudo yum install elrepo-release epel-release
+```
+But from there the repo becomes unusable 
+
+to fix that 
+
+```sudo dnf clean all```
+```dnf makecache --refresh```
+
+
+To fix the mirror issue edit /etc/yum.repos.d/elrepo/elrepo.repo, 
+comment out 
+mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el8
+
+save and ```dnf makecache --refresh```
 <More to come>
