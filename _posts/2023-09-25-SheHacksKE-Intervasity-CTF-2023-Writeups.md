@@ -6,7 +6,7 @@ tags: web graphql
 
 # SheHacksKE Intervasity CTF 2023 Web Writeups
 
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/11161aea-e301-4f2c-a944-7ae8e5b79fbf)
+![image](https://github.com/k0imet/repo/assets/60982828/11161aea-e301-4f2c-a944-7ae8e5b79fbf)
 
 
 - On friday the 22nd of September 2023 I had an opportunity to take part in the Annual Intervasity CTF from SheHacksKE with some friends from fr334aks under the alias "Seekers" which was partly online and also onsite at USIU Africa,
@@ -20,14 +20,14 @@ We ended up winning 🥇 beating atleast other 80 teams that had atleast a singl
 
 - This was a fairly easy challenge, all that was required of us was to query the flag using the GetFlag query that would fetch the flag from the Flagtable. 
 
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/ee7de725-3933-42db-8d2e-ebe167d54665)
+![image](https://github.com/k0imet/repo/assets/60982828/ee7de725-3933-42db-8d2e-ebe167d54665)
 
 Base64 decoding the encoded strings gives the flag :) 
 
 
 ## Graph2 
 
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/bbc99130-6875-4498-8fbf-aa85efe9f75e)
+![image](https://github.com/k0imet/repo/assets/60982828/bbc99130-6875-4498-8fbf-aa85efe9f75e)
 
 
 Spent sometime here as i haven't solved alot of graphql challenges before, but in the end it was worth it,
@@ -36,13 +36,13 @@ This hidden note probably belonged to an admin.
 I copied the Introspection Query from Graphql voyager to get a better understanding of the queries, available relationships etc. 
 
 
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/751ae80a-6fa6-406a-8122-fccc989fac6a)
+![image](https://github.com/k0imet/repo/assets/60982828/751ae80a-6fa6-406a-8122-fccc989fac6a)
 
 I also used graphqlmap to gather more information as well, including mutations and potential injection points or queries that I missed.
 
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/90f555c9-c5c5-48c0-9dae-07c97c452657)
+![image](https://github.com/k0imet/repo/assets/60982828/90f555c9-c5c5-48c0-9dae-07c97c452657)
 
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/a88f540b-30aa-42eb-be2c-03cbbaf2af86)
+![image](https://github.com/k0imet/repo/assets/60982828/a88f540b-30aa-42eb-be2c-03cbbaf2af86)
 
 
 ### what I tried and failed 
@@ -180,7 +180,7 @@ updateUser
       body[]
 
 ```
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/a5b2ab15-2c83-4a37-a22c-f8c768338a00)
+![image](https://github.com/k0imet/repo/assets/60982828/a5b2ab15-2c83-4a37-a22c-f8c768338a00)
 
 - Decode for full flag
 
