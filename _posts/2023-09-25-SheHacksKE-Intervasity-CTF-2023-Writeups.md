@@ -15,7 +15,7 @@ We ended up winning 🥇 beating atleast other 80 teams that had atleast a singl
 
 ## Graph1 
 
-![image](https://github.com/k0imet/k0imet.github.io/assets/60982828/ed185ee7-3496-4482-af0f-c1942f213b00)
+![image](https://github.com/k0imet/repo/assets/60982828/ed185ee7-3496-4482-af0f-c1942f213b00)
 
 
 - This was a fairly easy challenge, all that was required of us was to query the flag using the GetFlag query that would fetch the flag from the Flagtable. 
